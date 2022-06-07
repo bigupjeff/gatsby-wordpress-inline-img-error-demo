@@ -14,6 +14,12 @@ _"Error in function createFiberFromTypeAndProps in ./node_modules/react-dom/cjs/
 
 ![screenshot](./errorScreenshot.webp)
 
+**Note**
+
+- `useGatsbyImage: false/true` or leaving it unspecified makes no difference.
+- Using `html-react-parser` vs `dangerouslySetInnerHTML` in the post template makes no difference.
+- Sometimes cacheing hides the issue. Refresh with **ctrl+f5** to see the issue every time.
+
 ### To reproduce
 
 Run `gatsby develop` and view the site (single page) to see the error.
